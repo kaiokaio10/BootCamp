@@ -39,6 +39,7 @@ public class PessoasController {
 		return pessoaService.findById(id);
 	}
 
+	
 	@GetMapping
 	public List<PessoaDTO> listAll() {
 		return pessoaService.listAll();
